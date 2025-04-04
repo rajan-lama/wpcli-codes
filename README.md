@@ -67,6 +67,10 @@ wp eval 'echo WP_CONTENT_DIR;'
 
 14) wp eval-file // Loads and executes a PHP file.  
 
+17) wp plugin install redis-cache --activate // Now install cache plugin
+
+18) wp cache flush //  wp cache delete my_key my_group
+
 15) adding custom command with function
 
 function WpNepalCommand( $args ) {
@@ -99,9 +103,3 @@ WP_CLI::add_command( 'wpn-env-check', $instance );
 // 2. Register object as a function for the callable parameter.
 WP_CLI::add_command( 'wpn-env-check', 'Wp_Nepal_Command' );
 
-
-8) Now install cache plugin   => wp plugin install redis-cache --activate
-
- wp cache flush //  wp cache delete my_key my_group
-
-for windows install https://www.memurai.com/download
