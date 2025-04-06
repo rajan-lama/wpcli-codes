@@ -20,7 +20,7 @@ On windows for xampp:
 
 2) composer create-project wp-cli/wp-cli-bundle --prefer-source OR composer global require wp-cli/wp-cli-bundle
 
-3) Now copy path D:\xampp\htdocs\wp-cli-bundle\vendor\wp-cli as environment variable for globally understand WP command
+3) Now copy path D:\xampp\htdocs\wp-cli-bundle\vendor\wp-cli\wp-cli\bin as environment variable for globally understand WP command
 
 
 For more, visit https://make.wordpress.org/cli/handbook/guides/installing/
